@@ -1,0 +1,39 @@
+kotlin
+
+
+variable : use capital word like Int, Float 
+
+VAR:- re-assign is possible
+VAL:- can't re-assign
+
+constructor
+primary:-
+secondary:- 
+
+getter:
+setter
+
+lateinit:- value may given later
+
+inheritance
+open class:- base class is important
+
+modifiers:-
+all are public default
+internal :-visible to any client inside the module that can see the declaring class
+
+when(){}
+switch(){} :- if else
+for(i in 1..5){}
+for(letter in text){}
+
+function :- fun functionname(): int {return }
+:Unit no return type 
+
+array 
+var arr= arrayOf("one","two")
+var arr = arrayOf<Int>()
+arr.set(0,5): 0 = position 5: value to place
+arr.get(0) 0: positon  to print what is there
+
+onCreate is the first which will open first

@@ -1,0 +1,59 @@
+GitHub 
+1. history of code 
+2. contribute to the code by many people with there name 
+
+mkdir floder
+touch text.txt
+
+git config --list
+ git config --global user.name "Nikhil Puppalwar"
+ git config --global user.email "NikhilPuppalwar@gamil.com"
+
+
+git clone https   //to add repository for GitHub remote(our) to local drive
+
+git init // git initialize
+ls -a 
+git add .          // to track the all file (staging area)
+git add text.txt  // for single file
+git status
+git commit -m "text.txt file added"  // commit the file (storing as a history
+git restore --staged text.txt
+git log  // what are the commit we do tells us
+
+git reset 249ef9b050d9bedf417d863d058ad7bc76db95d1(hash)
+git checkout 249ef9b050d9bedf417d863d058ad7bc76db95d1  
+// checking what we read in the code at what time
+git push origin main // local to remote
+
+vi :x
+cat text.txt
+rm -rf text.txt // delete
+
+if we update the file then we have to do two step
+git add .
+git commit
+
+git reset HEAD~1//one back step
+git remote add origin <-link->
+git remote -v 
+
+git branch   // tells us were we are
+git branch -M main  //rename the branch
+git push origin main
+git push origin feature1
+
+
+git checkout -b branch-name  //create branch
+git checkout //change the branch
+git checkout -d branch-name  //delete branch
+
+pr :- pull request to merge the file by GitHub
+git diff main
+git merge main origin
+
+git pull origin main // downloading the content which is change in GitHub and want to update in local 
+
+fork //copy the repository of other person
+
+git rebase -i hash code // to merge the commit  (use  s in place of pick)
